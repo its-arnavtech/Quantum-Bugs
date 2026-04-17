@@ -1,0 +1,23 @@
+{
+  "fields": [
+    "mutation_id",
+    "seed_id",
+    "family",
+    "order",
+    "source_seed_path",
+    "mutant_path",
+    "mutation_category",
+    "mutation_subtype",
+    "operator_id",
+    "operator_origin",
+    "quantum_specific",
+    "equivalent_candidate",
+    "bug_description",
+    "testing_relevance",
+    "expected_effect",
+    "difficulty",
+    "likely_killable_by",
+    "primary_site",
+    "secondary_sites"
+  ]
+}

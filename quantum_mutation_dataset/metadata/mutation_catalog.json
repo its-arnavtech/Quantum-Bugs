@@ -1,0 +1,486 @@
+{
+  "taxonomy": {
+    "A_gate_level_quantum_bugs": {
+      "label": "Gate-level quantum bugs",
+      "origin": "quantum-specific",
+      "subtypes": [
+        "single_qubit_gate_replacement",
+        "controlled_gate_replacement",
+        "gate_deletion",
+        "extra_gate_insertion",
+        "gate_reordering",
+        "wrong_qubit",
+        "reversed_control_target",
+        "missing_control",
+        "inverse_misuse",
+        "entanglement_structure_mutation"
+      ]
+    },
+    "B_parameter_bugs": {
+      "label": "Parameter bugs",
+      "origin": "mixed",
+      "subtypes": [
+        "wrong_rotation_angle",
+        "sign_error",
+        "degrees_vs_radians",
+        "constant_offset",
+        "parameter_scaling",
+        "wrong_parameter_variable",
+        "binding_order_mismatch",
+        "stale_parameter"
+      ]
+    },
+    "C_measurement_bugs": {
+      "label": "Measurement and classical-register bugs",
+      "origin": "quantum-specific",
+      "subtypes": [
+        "wrong_measured_qubit",
+        "wrong_classical_bit",
+        "measurement_omission",
+        "premature_measurement",
+        "mapping_reorder",
+        "endianness_postprocessing_bug",
+        "wrong_success_criterion"
+      ]
+    },
+    "D_circuit_structure_bugs": {
+      "label": "Circuit structure bugs",
+      "origin": "mixed",
+      "subtypes": [
+        "wrong_number_of_qubits",
+        "missing_reset",
+        "incorrect_subcircuit_composition",
+        "copy_paste_wrong_block",
+        "loop_range_bug",
+        "off_by_one_qubit_index",
+        "wrong_register_reference"
+      ]
+    },
+    "E_algorithm_specific_quantum_bugs": {
+      "label": "Algorithm-specific quantum bugs",
+      "origin": "quantum-specific",
+      "subtypes": [
+        "broken_bell_entanglement",
+        "teleportation_correction_bug",
+        "superdense_encoding_bug",
+        "oracle_mutation",
+        "diffuser_mutation",
+        "qft_angle_bug",
+        "qaoa_cost_bug",
+        "vqe_expectation_bug",
+        "swap_test_control_bug"
+      ]
+    },
+    "F_backend_execution_bugs": {
+      "label": "Transpilation/backend/execution bugs",
+      "origin": "mixed",
+      "subtypes": [
+        "wrong_backend",
+        "wrong_shot_count",
+        "missing_transpile",
+        "wrong_optimization_assumption",
+        "basis_gate_mismatch",
+        "noise_model_misapplied",
+        "result_access_bug"
+      ]
+    },
+    "G_hybrid_bugs": {
+      "label": "Hybrid classical-quantum bugs",
+      "origin": "classical-mutation-inspired",
+      "subtypes": [
+        "optimizer_direction_bug",
+        "objective_sign_flip",
+        "convergence_condition_bug",
+        "stale_model_outputs",
+        "wrong_parameter_update",
+        "wrong_loop_bounds",
+        "random_seed_bug"
+      ]
+    },
+    "H_api_misuse_bugs": {
+      "label": "API misuse bugs",
+      "origin": "classical-mutation-inspired",
+      "subtypes": [
+        "deprecated_api_usage",
+        "wrong_method_name",
+        "wrong_argument_order",
+        "wrong_result_extraction",
+        "primitive_api_misuse"
+      ]
+    },
+    "I_classical_bugs": {
+      "label": "Classical bugs embedded in quantum programs",
+      "origin": "classical-mutation-inspired",
+      "subtypes": [
+        "off_by_one",
+        "wrong_constant",
+        "wrong_conditional",
+        "wrong_dictionary_key",
+        "wrong_list_index",
+        "copy_paste_bug",
+        "uninitialized_variable",
+        "wrong_return_value",
+        "faulty_exception_handling"
+      ]
+    },
+    "J_research_mutation_operators": {
+      "label": "Research-benchmark-inspired mutation operators",
+      "origin": "classical-and-quantum",
+      "subtypes": [
+        "statement_deletion",
+        "statement_insertion",
+        "statement_replacement",
+        "arithmetic_operator_replacement",
+        "relational_operator_replacement",
+        "logical_connector_replacement",
+        "constant_replacement",
+        "variable_replacement",
+        "function_call_replacement",
+        "argument_order_mutation",
+        "conditional_negation",
+        "measurement_mapping_mutation",
+        "parameter_expression_mutation",
+        "entanglement_structure_mutation"
+      ]
+    }
+  },
+  "operators": [
+    "BIND_STALE",
+    "BIND_SWAP",
+    "BIND_WRONG_METHOD",
+    "BV_MEASURE_ANCILLA",
+    "BV_REVERSE_MEASURE",
+    "BV_REVERSE_MEASURE+GEN_DELETE_STATEMENT",
+    "CTRL_DELETE_CZ",
+    "CTRL_REVERSE_CZ",
+    "CTRL_Z_TO_CX",
+    "DJ_CZ_ORACLE",
+    "DJ_DELETE_FINAL_H",
+    "DJ_DELETE_ORACLE_ARM",
+    "DJ_DELETE_ORACLE_ARM+DJ_DELETE_FINAL_H",
+    "DJ_PARTIAL_FINAL_H",
+    "DJ_REVERSE_ORACLE",
+    "DJ_X_FOR_H",
+    "GEN_ASSERT_TRAP",
+    "GEN_COPY_PASTE",
+    "GEN_DELETE_STATEMENT",
+    "GEN_PASS_BLOCK",
+    "GEN_SYNTAX_BREAK",
+    "GHZ_DELETE_BARRIER",
+    "GHZ_EXTRA_Z",
+    "GROVER_APPEND_ORACLE",
+    "GROVER_CX_ORACLE",
+    "GROVER_CX_ORACLE+GROVER_DELETE_DIFFUSER",
+    "GROVER_DELETE_DIFFUSER",
+    "GROVER_DELETE_ORACLE",
+    "GROVER_EXTRA_X",
+    "GROVER_INVERSE_DIFFUSER",
+    "HYBRID_ASCEND",
+    "HYBRID_DOUBLE_STEP",
+    "HYBRID_STALE",
+    "LOOP_LONG",
+    "LOOP_SHORT",
+    "LOOP_SKIP_ZERO",
+    "MEAS_DELETE",
+    "MEAS_DUPLICATE",
+    "MEAS_ENDIANNESS",
+    "MEAS_PREMATURE",
+    "MEAS_RETURN_TOTAL",
+    "MEAS_SWAP_ORDER",
+    "MEAS_WRONG_CBIT",
+    "MEAS_WRONG_KEY",
+    "MEAS_WRONG_QUBIT",
+    "MID_DELETE_BRANCH",
+    "MID_DELETE_RESET",
+    "MID_DELETE_RESET+MID_Z_FOR_X",
+    "MID_RESET_WRONG_QUBIT",
+    "MID_WRONG_CONDITION",
+    "MID_Z_FOR_X",
+    "NOISE_DELETE_MODEL",
+    "NOISE_DENSITY_BACKEND",
+    "NOISE_DENSITY_BACKEND+NOISE_DELETE_MODEL",
+    "NOISE_MISSING_BACKEND",
+    "NOISE_ONE_SHOT",
+    "NOISE_WRONG_RESULT_ACCESS",
+    "PAR_AXIS_SWAP",
+    "PAR_DEGREES",
+    "PAR_NEGATE",
+    "PAR_NEGATE+PAR_NEGATE",
+    "PAR_NEGATE+QCR_SWAP_CZ",
+    "PAR_OFFSET",
+    "PAR_SCALE_HALF",
+    "PAR_WRONG_VARIABLE",
+    "PAR_ZERO",
+    "QCR_DELETE_CONTROL",
+    "QCR_DELETE_ENTANGLER",
+    "QCR_DUPLICATE_ENTANGLER",
+    "QCR_REVERSE_CONTROL",
+    "QCR_SWAP_CY",
+    "QCR_SWAP_CZ",
+    "QCR_SWAP_CZ+CTRL_Z_TO_CX",
+    "QCR_SWAP_FOR_CONTROLLED",
+    "QFT_CX_FOR_CP",
+    "QFT_CX_FOR_SWAP",
+    "QFT_DELETE_SWAP",
+    "QFT_NEGATIVE_ANGLE",
+    "QFT_WRONG_ANGLE",
+    "QFT_WRONG_ANGLE+QFT_DELETE_SWAP",
+    "QFT_WRONG_SWAP",
+    "QGD_DELETE_H",
+    "QGI_DUPLICATE_H",
+    "QGI_H_PLUS_Z",
+    "QGR_H_TO_X",
+    "QGR_H_TO_X+GHZ_EXTRA_Z",
+    "QGR_H_TO_X+LOOP_SHORT",
+    "QGR_H_TO_X+MEAS_DELETE",
+    "QGR_H_TO_X+QCR_SWAP_CZ",
+    "QGR_H_TO_X+QGR_H_TO_X",
+    "QGR_H_TO_X+SWAPTEST_DELETE_CSWAP",
+    "QGR_H_TO_X+TEL_WRONG_Z_TARGET",
+    "QGR_H_TO_Y",
+    "QGR_H_TO_Z",
+    "QQI_WRONG_H_QUBIT",
+    "QQI_WRONG_TARGET",
+    "SD_DELETE_FIRST",
+    "SD_WRONG_CONST",
+    "SD_WRONG_INDEX",
+    "SD_WRONG_INDEX+SD_WRONG_CONST",
+    "SD_WRONG_QUBIT",
+    "SD_X_TO_Y",
+    "SD_Z_TO_X",
+    "SWAPTEST_CX_FOR_CSWAP",
+    "SWAPTEST_DELETE_CSWAP",
+    "SWAPTEST_WRONG_CONTROL",
+    "TEL_DELETE_X",
+    "TEL_DELETE_Z",
+    "TEL_SWAP_CLASSICAL",
+    "TEL_WRONG_Z_TARGET",
+    "TEL_X_FOR_Z",
+    "TEL_Z_FOR_X",
+    "TRANSPILE_OPT3",
+    "TRANSPILE_RESULT_ACCESS",
+    "TRANSPILE_SKIP"
+  ],
+  "seed_programs": [
+    {
+      "seed_id": "bell",
+      "family": "bell",
+      "name": "Bell State Creation",
+      "tags": [
+        "entanglement",
+        "state-preparation",
+        "qiskit"
+      ],
+      "mutant_count": 33,
+      "site_count": 5
+    },
+    {
+      "seed_id": "ghz",
+      "family": "ghz",
+      "name": "GHZ State Creation",
+      "tags": [
+        "entanglement",
+        "ghz",
+        "qiskit"
+      ],
+      "mutant_count": 19,
+      "site_count": 3
+    },
+    {
+      "seed_id": "teleportation",
+      "family": "teleportation",
+      "name": "Quantum Teleportation",
+      "tags": [
+        "teleportation",
+        "corrections",
+        "qiskit"
+      ],
+      "mutant_count": 33,
+      "site_count": 4
+    },
+    {
+      "seed_id": "superdense",
+      "family": "superdense",
+      "name": "Superdense Coding",
+      "tags": [
+        "superdense-coding",
+        "communication",
+        "qiskit"
+      ],
+      "mutant_count": 17,
+      "site_count": 2
+    },
+    {
+      "seed_id": "deutsch_jozsa",
+      "family": "deutsch_jozsa",
+      "name": "Deutsch-Jozsa",
+      "tags": [
+        "oracle",
+        "deutsch-jozsa",
+        "qiskit"
+      ],
+      "mutant_count": 17,
+      "site_count": 2
+    },
+    {
+      "seed_id": "bernstein_vazirani",
+      "family": "bernstein_vazirani",
+      "name": "Bernstein-Vazirani",
+      "tags": [
+        "oracle",
+        "bernstein-vazirani",
+        "qiskit"
+      ],
+      "mutant_count": 13,
+      "site_count": 2
+    },
+    {
+      "seed_id": "grover",
+      "family": "grover",
+      "name": "Grover Search",
+      "tags": [
+        "grover",
+        "oracle",
+        "diffuser",
+        "qiskit"
+      ],
+      "mutant_count": 17,
+      "site_count": 2
+    },
+    {
+      "seed_id": "qft",
+      "family": "qft",
+      "name": "Quantum Fourier Transform",
+      "tags": [
+        "qft",
+        "phase",
+        "qiskit"
+      ],
+      "mutant_count": 17,
+      "site_count": 2
+    },
+    {
+      "seed_id": "vqe_ansatz",
+      "family": "vqe",
+      "name": "VQE-Style Ansatz",
+      "tags": [
+        "vqe",
+        "variational",
+        "parameterized",
+        "qiskit"
+      ],
+      "mutant_count": 23,
+      "site_count": 3
+    },
+    {
+      "seed_id": "qaoa",
+      "family": "qaoa",
+      "name": "QAOA-Style Layer",
+      "tags": [
+        "qaoa",
+        "variational",
+        "parameterized",
+        "qiskit"
+      ],
+      "mutant_count": 23,
+      "site_count": 3
+    },
+    {
+      "seed_id": "swap_test",
+      "family": "swap_test",
+      "name": "Swap Test",
+      "tags": [
+        "swap-test",
+        "ancilla",
+        "qiskit"
+      ],
+      "mutant_count": 24,
+      "site_count": 3
+    },
+    {
+      "seed_id": "measurement_pipeline",
+      "family": "measurement_pipeline",
+      "name": "Measurement Pipeline",
+      "tags": [
+        "measurement",
+        "post-processing",
+        "qiskit"
+      ],
+      "mutant_count": 8,
+      "site_count": 1
+    },
+    {
+      "seed_id": "noise_workflow",
+      "family": "noise",
+      "name": "Noise Simulation Workflow",
+      "tags": [
+        "noise",
+        "aer",
+        "backend",
+        "qiskit"
+      ],
+      "mutant_count": 16,
+      "site_count": 2
+    },
+    {
+      "seed_id": "transpile_workflow",
+      "family": "transpile",
+      "name": "Transpilation and Backend Workflow",
+      "tags": [
+        "transpile",
+        "backend",
+        "qiskit"
+      ],
+      "mutant_count": 8,
+      "site_count": 1
+    },
+    {
+      "seed_id": "hybrid_loop",
+      "family": "hybrid",
+      "name": "Hybrid Quantum-Classical Loop",
+      "tags": [
+        "hybrid",
+        "optimizer",
+        "qiskit"
+      ],
+      "mutant_count": 8,
+      "site_count": 1
+    },
+    {
+      "seed_id": "parameterized_circuit",
+      "family": "parameterized",
+      "name": "Parameterized Circuit Binding",
+      "tags": [
+        "parameters",
+        "binding",
+        "qiskit"
+      ],
+      "mutant_count": 8,
+      "site_count": 1
+    },
+    {
+      "seed_id": "controlled_ops",
+      "family": "controlled_ops",
+      "name": "Controlled Operations",
+      "tags": [
+        "controlled-gates",
+        "entanglement",
+        "qiskit"
+      ],
+      "mutant_count": 17,
+      "site_count": 2
+    },
+    {
+      "seed_id": "mid_circuit",
+      "family": "mid_circuit",
+      "name": "Mid-Circuit Measurement and Conditional Logic",
+      "tags": [
+        "mid-circuit-measurement",
+        "conditional",
+        "qiskit"
+      ],
+      "mutant_count": 16,
+      "site_count": 2
+    }
+  ]
+}

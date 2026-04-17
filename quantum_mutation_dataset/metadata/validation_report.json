@@ -1,0 +1,2746 @@
+[
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bell/bell_ho001.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bell/bell_ho002.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bell/bell_ho003.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bell/bell_ho004.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bell/bell_m001.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bell/bell_m002.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bell/bell_m003.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bell/bell_m004.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bell/bell_m005.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bell/bell_m006.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bell/bell_m007.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bell/bell_m008.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bell/bell_m009.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bell/bell_m010.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bell/bell_m011.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bell/bell_m012.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bell/bell_m013.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bell/bell_m014.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bell/bell_m015.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bell/bell_m016.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bell/bell_m017.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bell/bell_m018.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bell/bell_m019.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bell/bell_m020.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bell/bell_m021.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bell/bell_m022.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bell/bell_m023.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bell/bell_m024.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bell/bell_m025.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bell/bell_m026.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bell/bell_m027.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bell/bell_m028.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bell/bell_m029.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bell/bell_m030.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bell/bell_m031.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bernstein_vazirani/bernstein_vazirani_ho001.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bernstein_vazirani/bernstein_vazirani_m001.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bernstein_vazirani/bernstein_vazirani_m002.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bernstein_vazirani/bernstein_vazirani_m003.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bernstein_vazirani/bernstein_vazirani_m004.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bernstein_vazirani/bernstein_vazirani_m005.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bernstein_vazirani/bernstein_vazirani_m006.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bernstein_vazirani/bernstein_vazirani_m007.py",
+    "parse_ok": false,
+    "parse_error": "SyntaxError: unmatched ')' (bernstein_vazirani_m007.py, line 21)",
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bernstein_vazirani/bernstein_vazirani_m008.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bernstein_vazirani/bernstein_vazirani_m009.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bernstein_vazirani/bernstein_vazirani_m010.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bernstein_vazirani/bernstein_vazirani_m011.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/bernstein_vazirani/bernstein_vazirani_m012.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/controlled_ops/controlled_ops_ho001.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/controlled_ops/controlled_ops_m001.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/controlled_ops/controlled_ops_m002.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/controlled_ops/controlled_ops_m003.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/controlled_ops/controlled_ops_m004.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/controlled_ops/controlled_ops_m005.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/controlled_ops/controlled_ops_m006.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/controlled_ops/controlled_ops_m007.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/controlled_ops/controlled_ops_m008.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/controlled_ops/controlled_ops_m009.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/controlled_ops/controlled_ops_m010.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/controlled_ops/controlled_ops_m011.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/controlled_ops/controlled_ops_m012.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/controlled_ops/controlled_ops_m013.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/controlled_ops/controlled_ops_m014.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/controlled_ops/controlled_ops_m015.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/controlled_ops/controlled_ops_m016.py",
+    "parse_ok": false,
+    "parse_error": "SyntaxError: unmatched ')' (controlled_ops_m016.py, line 8)",
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/deutsch_jozsa/deutsch_jozsa_ho001.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/deutsch_jozsa/deutsch_jozsa_m001.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/deutsch_jozsa/deutsch_jozsa_m002.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/deutsch_jozsa/deutsch_jozsa_m003.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/deutsch_jozsa/deutsch_jozsa_m004.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/deutsch_jozsa/deutsch_jozsa_m005.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/deutsch_jozsa/deutsch_jozsa_m006.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/deutsch_jozsa/deutsch_jozsa_m007.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/deutsch_jozsa/deutsch_jozsa_m008.py",
+    "parse_ok": false,
+    "parse_error": "SyntaxError: unmatched ')' (deutsch_jozsa_m008.py, line 6)",
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/deutsch_jozsa/deutsch_jozsa_m009.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/deutsch_jozsa/deutsch_jozsa_m010.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/deutsch_jozsa/deutsch_jozsa_m011.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/deutsch_jozsa/deutsch_jozsa_m012.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/deutsch_jozsa/deutsch_jozsa_m013.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/deutsch_jozsa/deutsch_jozsa_m014.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/deutsch_jozsa/deutsch_jozsa_m015.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/deutsch_jozsa/deutsch_jozsa_m016.py",
+    "parse_ok": false,
+    "parse_error": "SyntaxError: unmatched ')' (deutsch_jozsa_m016.py, line 16)",
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/ghz/ghz_ho001.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/ghz/ghz_ho002.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/ghz/ghz_ho003.py",
+    "parse_ok": false,
+    "parse_error": "IndentationError: unexpected indent (ghz_ho003.py, line 2)",
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/ghz/ghz_m001.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/ghz/ghz_m002.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/ghz/ghz_m003.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/ghz/ghz_m004.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/ghz/ghz_m005.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/ghz/ghz_m006.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/ghz/ghz_m007.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/ghz/ghz_m008.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/ghz/ghz_m009.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/ghz/ghz_m010.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/ghz/ghz_m011.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/ghz/ghz_m012.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/ghz/ghz_m013.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/ghz/ghz_m014.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/ghz/ghz_m015.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/ghz/ghz_m016.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/ghz/ghz_m017.py",
+    "parse_ok": false,
+    "parse_error": "SyntaxError: unmatched ')' (ghz_m017.py, line 10)",
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/grover/grover_ho001.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/grover/grover_m001.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/grover/grover_m002.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/grover/grover_m003.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/grover/grover_m004.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/grover/grover_m005.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/grover/grover_m006.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/grover/grover_m007.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/grover/grover_m008.py",
+    "parse_ok": false,
+    "parse_error": "SyntaxError: unmatched ')' (grover_m008.py, line 6)",
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/grover/grover_m009.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/grover/grover_m010.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/grover/grover_m011.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/grover/grover_m012.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/grover/grover_m013.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/grover/grover_m014.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/grover/grover_m015.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/grover/grover_m016.py",
+    "parse_ok": false,
+    "parse_error": "SyntaxError: unmatched ')' (grover_m016.py, line 25)",
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/hybrid/hybrid_loop_m001.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/hybrid/hybrid_loop_m002.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/hybrid/hybrid_loop_m003.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/hybrid/hybrid_loop_m004.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/hybrid/hybrid_loop_m005.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/hybrid/hybrid_loop_m006.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/hybrid/hybrid_loop_m007.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/hybrid/hybrid_loop_m008.py",
+    "parse_ok": false,
+    "parse_error": "SyntaxError: unmatched ')' (hybrid_loop_m008.py, line 18)",
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/measurement_pipeline/measurement_pipeline_m001.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/measurement_pipeline/measurement_pipeline_m002.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/measurement_pipeline/measurement_pipeline_m003.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/measurement_pipeline/measurement_pipeline_m004.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/measurement_pipeline/measurement_pipeline_m005.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/measurement_pipeline/measurement_pipeline_m006.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/measurement_pipeline/measurement_pipeline_m007.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/measurement_pipeline/measurement_pipeline_m008.py",
+    "parse_ok": false,
+    "parse_error": "SyntaxError: unmatched ')' (measurement_pipeline_m008.py, line 14)",
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/mid_circuit/mid_circuit_ho001.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/mid_circuit/mid_circuit_m001.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/mid_circuit/mid_circuit_m002.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/mid_circuit/mid_circuit_m003.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/mid_circuit/mid_circuit_m004.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/mid_circuit/mid_circuit_m005.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/mid_circuit/mid_circuit_m006.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/mid_circuit/mid_circuit_m007.py",
+    "parse_ok": false,
+    "parse_error": "SyntaxError: unmatched ')' (mid_circuit_m007.py, line 8)",
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/mid_circuit/mid_circuit_m008.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/mid_circuit/mid_circuit_m009.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/mid_circuit/mid_circuit_m010.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/mid_circuit/mid_circuit_m011.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/mid_circuit/mid_circuit_m012.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/mid_circuit/mid_circuit_m013.py",
+    "parse_ok": false,
+    "parse_error": "IndentationError: expected an indented block after 'with' statement on line 11 (mid_circuit_m013.py, line 12)",
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/mid_circuit/mid_circuit_m014.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/mid_circuit/mid_circuit_m015.py",
+    "parse_ok": false,
+    "parse_error": "SyntaxError: unmatched ')' (mid_circuit_m015.py, line 9)",
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/noise/noise_workflow_ho001.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/noise/noise_workflow_m001.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/noise/noise_workflow_m002.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/noise/noise_workflow_m003.py",
+    "parse_ok": false,
+    "parse_error": "SyntaxError: invalid syntax (noise_workflow_m003.py, line 16)",
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/noise/noise_workflow_m004.py",
+    "parse_ok": false,
+    "parse_error": "SyntaxError: invalid syntax (noise_workflow_m004.py, line 16)",
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/noise/noise_workflow_m005.py",
+    "parse_ok": false,
+    "parse_error": "IndentationError: unexpected indent (noise_workflow_m005.py, line 18)",
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/noise/noise_workflow_m006.py",
+    "parse_ok": false,
+    "parse_error": "SyntaxError: invalid syntax (noise_workflow_m006.py, line 16)",
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/noise/noise_workflow_m007.py",
+    "parse_ok": false,
+    "parse_error": "SyntaxError: unmatched ')' (noise_workflow_m007.py, line 16)",
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/noise/noise_workflow_m008.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/noise/noise_workflow_m009.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/noise/noise_workflow_m010.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/noise/noise_workflow_m011.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/noise/noise_workflow_m012.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/noise/noise_workflow_m013.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/noise/noise_workflow_m014.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/noise/noise_workflow_m015.py",
+    "parse_ok": false,
+    "parse_error": "SyntaxError: unmatched ')' (noise_workflow_m015.py, line 20)",
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/parameterized/parameterized_circuit_m001.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/parameterized/parameterized_circuit_m002.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/parameterized/parameterized_circuit_m003.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/parameterized/parameterized_circuit_m004.py",
+    "parse_ok": false,
+    "parse_error": "IndentationError: expected an indented block after function definition on line 17 (parameterized_circuit_m004.py, line 21)",
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/parameterized/parameterized_circuit_m005.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/parameterized/parameterized_circuit_m006.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/parameterized/parameterized_circuit_m007.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/parameterized/parameterized_circuit_m008.py",
+    "parse_ok": false,
+    "parse_error": "SyntaxError: unmatched ')' (parameterized_circuit_m008.py, line 18)",
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qaoa/qaoa_ho001.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qaoa/qaoa_ho002.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qaoa/qaoa_ho003.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qaoa/qaoa_m001.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qaoa/qaoa_m002.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qaoa/qaoa_m003.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qaoa/qaoa_m004.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qaoa/qaoa_m005.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qaoa/qaoa_m006.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qaoa/qaoa_m007.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qaoa/qaoa_m008.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qaoa/qaoa_m009.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qaoa/qaoa_m010.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qaoa/qaoa_m011.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qaoa/qaoa_m012.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qaoa/qaoa_m013.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qaoa/qaoa_m014.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qaoa/qaoa_m015.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qaoa/qaoa_m016.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qaoa/qaoa_m017.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qaoa/qaoa_m018.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qaoa/qaoa_m019.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qaoa/qaoa_m020.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qaoa/qaoa_m021.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qft/qft_ho001.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qft/qft_m001.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qft/qft_m002.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qft/qft_m003.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qft/qft_m004.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qft/qft_m005.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qft/qft_m006.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qft/qft_m007.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qft/qft_m008.py",
+    "parse_ok": false,
+    "parse_error": "SyntaxError: unmatched ')' (qft_m008.py, line 9)",
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qft/qft_m009.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qft/qft_m010.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qft/qft_m011.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qft/qft_m012.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qft/qft_m013.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qft/qft_m014.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qft/qft_m015.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/qft/qft_m016.py",
+    "parse_ok": false,
+    "parse_error": "SyntaxError: unmatched ')' (qft_m016.py, line 13)",
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/superdense/superdense_ho001.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/superdense/superdense_m001.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/superdense/superdense_m002.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/superdense/superdense_m003.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/superdense/superdense_m004.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/superdense/superdense_m005.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/superdense/superdense_m006.py",
+    "parse_ok": false,
+    "parse_error": "IndentationError: expected an indented block after 'if' statement on line 10 (superdense_m006.py, line 11)",
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/superdense/superdense_m007.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/superdense/superdense_m008.py",
+    "parse_ok": false,
+    "parse_error": "SyntaxError: unmatched ')' (superdense_m008.py, line 8)",
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/superdense/superdense_m009.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/superdense/superdense_m010.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/superdense/superdense_m011.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/superdense/superdense_m012.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/superdense/superdense_m013.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/superdense/superdense_m014.py",
+    "parse_ok": false,
+    "parse_error": "IndentationError: expected an indented block after 'if' statement on line 12 (superdense_m014.py, line 13)",
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/superdense/superdense_m015.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/superdense/superdense_m016.py",
+    "parse_ok": false,
+    "parse_error": "SyntaxError: unmatched ')' (superdense_m016.py, line 10)",
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/swap_test/swap_test_ho001.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/swap_test/swap_test_ho002.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/swap_test/swap_test_ho003.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/swap_test/swap_test_m001.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/swap_test/swap_test_m002.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/swap_test/swap_test_m003.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/swap_test/swap_test_m004.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/swap_test/swap_test_m005.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/swap_test/swap_test_m006.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/swap_test/swap_test_m007.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/swap_test/swap_test_m008.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/swap_test/swap_test_m009.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/swap_test/swap_test_m010.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/swap_test/swap_test_m011.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/swap_test/swap_test_m012.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/swap_test/swap_test_m013.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/swap_test/swap_test_m014.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/swap_test/swap_test_m015.py",
+    "parse_ok": false,
+    "parse_error": "SyntaxError: unmatched ')' (swap_test_m015.py, line 10)",
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/swap_test/swap_test_m016.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/swap_test/swap_test_m017.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/swap_test/swap_test_m018.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/swap_test/swap_test_m019.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/swap_test/swap_test_m020.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/swap_test/swap_test_m021.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/swap_test/swap_test_m022.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/teleportation/teleportation_ho001.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/teleportation/teleportation_ho002.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/teleportation/teleportation_ho003.py",
+    "parse_ok": false,
+    "parse_error": "IndentationError: unexpected indent (teleportation_ho003.py, line 2)",
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/teleportation/teleportation_ho004.py",
+    "parse_ok": false,
+    "parse_error": "IndentationError: unexpected indent (teleportation_ho004.py, line 2)",
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/teleportation/teleportation_m001.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/teleportation/teleportation_m002.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/teleportation/teleportation_m003.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/teleportation/teleportation_m004.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/teleportation/teleportation_m005.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/teleportation/teleportation_m006.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/teleportation/teleportation_m007.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/teleportation/teleportation_m008.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/teleportation/teleportation_m009.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/teleportation/teleportation_m010.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/teleportation/teleportation_m011.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/teleportation/teleportation_m012.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/teleportation/teleportation_m013.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/teleportation/teleportation_m014.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/teleportation/teleportation_m015.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/teleportation/teleportation_m016.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/teleportation/teleportation_m017.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/teleportation/teleportation_m018.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/teleportation/teleportation_m019.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/teleportation/teleportation_m020.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/teleportation/teleportation_m021.py",
+    "parse_ok": false,
+    "parse_error": "IndentationError: expected an indented block after 'with' statement on line 16 (teleportation_m021.py, line 17)",
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/teleportation/teleportation_m022.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/teleportation/teleportation_m023.py",
+    "parse_ok": false,
+    "parse_error": "SyntaxError: unmatched ')' (teleportation_m023.py, line 14)",
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/teleportation/teleportation_m024.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/teleportation/teleportation_m025.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/teleportation/teleportation_m026.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/teleportation/teleportation_m027.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/teleportation/teleportation_m028.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/teleportation/teleportation_m029.py",
+    "parse_ok": false,
+    "parse_error": "IndentationError: expected an indented block after 'with' statement on line 18 (teleportation_m029.py, line 19)",
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/teleportation/teleportation_m030.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/teleportation/teleportation_m031.py",
+    "parse_ok": false,
+    "parse_error": "SyntaxError: unmatched ')' (teleportation_m031.py, line 16)",
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/transpile/transpile_workflow_m001.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/transpile/transpile_workflow_m002.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/transpile/transpile_workflow_m003.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/transpile/transpile_workflow_m004.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/transpile/transpile_workflow_m005.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/transpile/transpile_workflow_m006.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/transpile/transpile_workflow_m007.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/transpile/transpile_workflow_m008.py",
+    "parse_ok": false,
+    "parse_error": "SyntaxError: unmatched ')' (transpile_workflow_m008.py, line 17)",
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/vqe/vqe_ansatz_ho001.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/vqe/vqe_ansatz_ho002.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/vqe/vqe_ansatz_ho003.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/vqe/vqe_ansatz_m001.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/vqe/vqe_ansatz_m002.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/vqe/vqe_ansatz_m003.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/vqe/vqe_ansatz_m004.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/vqe/vqe_ansatz_m005.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/vqe/vqe_ansatz_m006.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/vqe/vqe_ansatz_m007.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/vqe/vqe_ansatz_m008.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/vqe/vqe_ansatz_m009.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/vqe/vqe_ansatz_m010.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/vqe/vqe_ansatz_m011.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/vqe/vqe_ansatz_m012.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/vqe/vqe_ansatz_m013.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/vqe/vqe_ansatz_m014.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/vqe/vqe_ansatz_m015.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/vqe/vqe_ansatz_m016.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/vqe/vqe_ansatz_m017.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/vqe/vqe_ansatz_m018.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/vqe/vqe_ansatz_m019.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/vqe/vqe_ansatz_m020.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/mutants/vqe/vqe_ansatz_m021.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/seeds/bell.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/seeds/bernstein_vazirani.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/seeds/controlled_ops.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/seeds/deutsch_jozsa.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/seeds/ghz.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/seeds/grover.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/seeds/hybrid_loop.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/seeds/measurement_pipeline.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/seeds/mid_circuit.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/seeds/noise_workflow.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/seeds/parameterized_circuit.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/seeds/qaoa.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/seeds/qft.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/seeds/superdense.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/seeds/swap_test.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/seeds/teleportation.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/seeds/transpile_workflow.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  },
+  {
+    "path": "C:/Quantum-Bugs/quantum_mutation_dataset/seeds/vqe_ansatz.py",
+    "parse_ok": true,
+    "parse_error": null,
+    "run_attempted": false,
+    "run_ok": null,
+    "run_output": null
+  }
+]

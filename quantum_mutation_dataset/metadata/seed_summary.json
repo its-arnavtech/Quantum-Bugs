@@ -1,0 +1,222 @@
+[
+  {
+    "seed_id": "bell",
+    "family": "bell",
+    "name": "Bell State Creation",
+    "tags": [
+      "entanglement",
+      "state-preparation",
+      "qiskit"
+    ],
+    "mutant_count": 33,
+    "site_count": 5
+  },
+  {
+    "seed_id": "ghz",
+    "family": "ghz",
+    "name": "GHZ State Creation",
+    "tags": [
+      "entanglement",
+      "ghz",
+      "qiskit"
+    ],
+    "mutant_count": 19,
+    "site_count": 3
+  },
+  {
+    "seed_id": "teleportation",
+    "family": "teleportation",
+    "name": "Quantum Teleportation",
+    "tags": [
+      "teleportation",
+      "corrections",
+      "qiskit"
+    ],
+    "mutant_count": 33,
+    "site_count": 4
+  },
+  {
+    "seed_id": "superdense",
+    "family": "superdense",
+    "name": "Superdense Coding",
+    "tags": [
+      "superdense-coding",
+      "communication",
+      "qiskit"
+    ],
+    "mutant_count": 17,
+    "site_count": 2
+  },
+  {
+    "seed_id": "deutsch_jozsa",
+    "family": "deutsch_jozsa",
+    "name": "Deutsch-Jozsa",
+    "tags": [
+      "oracle",
+      "deutsch-jozsa",
+      "qiskit"
+    ],
+    "mutant_count": 17,
+    "site_count": 2
+  },
+  {
+    "seed_id": "bernstein_vazirani",
+    "family": "bernstein_vazirani",
+    "name": "Bernstein-Vazirani",
+    "tags": [
+      "oracle",
+      "bernstein-vazirani",
+      "qiskit"
+    ],
+    "mutant_count": 13,
+    "site_count": 2
+  },
+  {
+    "seed_id": "grover",
+    "family": "grover",
+    "name": "Grover Search",
+    "tags": [
+      "grover",
+      "oracle",
+      "diffuser",
+      "qiskit"
+    ],
+    "mutant_count": 17,
+    "site_count": 2
+  },
+  {
+    "seed_id": "qft",
+    "family": "qft",
+    "name": "Quantum Fourier Transform",
+    "tags": [
+      "qft",
+      "phase",
+      "qiskit"
+    ],
+    "mutant_count": 17,
+    "site_count": 2
+  },
+  {
+    "seed_id": "vqe_ansatz",
+    "family": "vqe",
+    "name": "VQE-Style Ansatz",
+    "tags": [
+      "vqe",
+      "variational",
+      "parameterized",
+      "qiskit"
+    ],
+    "mutant_count": 23,
+    "site_count": 3
+  },
+  {
+    "seed_id": "qaoa",
+    "family": "qaoa",
+    "name": "QAOA-Style Layer",
+    "tags": [
+      "qaoa",
+      "variational",
+      "parameterized",
+      "qiskit"
+    ],
+    "mutant_count": 23,
+    "site_count": 3
+  },
+  {
+    "seed_id": "swap_test",
+    "family": "swap_test",
+    "name": "Swap Test",
+    "tags": [
+      "swap-test",
+      "ancilla",
+      "qiskit"
+    ],
+    "mutant_count": 24,
+    "site_count": 3
+  },
+  {
+    "seed_id": "measurement_pipeline",
+    "family": "measurement_pipeline",
+    "name": "Measurement Pipeline",
+    "tags": [
+      "measurement",
+      "post-processing",
+      "qiskit"
+    ],
+    "mutant_count": 8,
+    "site_count": 1
+  },
+  {
+    "seed_id": "noise_workflow",
+    "family": "noise",
+    "name": "Noise Simulation Workflow",
+    "tags": [
+      "noise",
+      "aer",
+      "backend",
+      "qiskit"
+    ],
+    "mutant_count": 16,
+    "site_count": 2
+  },
+  {
+    "seed_id": "transpile_workflow",
+    "family": "transpile",
+    "name": "Transpilation and Backend Workflow",
+    "tags": [
+      "transpile",
+      "backend",
+      "qiskit"
+    ],
+    "mutant_count": 8,
+    "site_count": 1
+  },
+  {
+    "seed_id": "hybrid_loop",
+    "family": "hybrid",
+    "name": "Hybrid Quantum-Classical Loop",
+    "tags": [
+      "hybrid",
+      "optimizer",
+      "qiskit"
+    ],
+    "mutant_count": 8,
+    "site_count": 1
+  },
+  {
+    "seed_id": "parameterized_circuit",
+    "family": "parameterized",
+    "name": "Parameterized Circuit Binding",
+    "tags": [
+      "parameters",
+      "binding",
+      "qiskit"
+    ],
+    "mutant_count": 8,
+    "site_count": 1
+  },
+  {
+    "seed_id": "controlled_ops",
+    "family": "controlled_ops",
+    "name": "Controlled Operations",
+    "tags": [
+      "controlled-gates",
+      "entanglement",
+      "qiskit"
+    ],
+    "mutant_count": 17,
+    "site_count": 2
+  },
+  {
+    "seed_id": "mid_circuit",
+    "family": "mid_circuit",
+    "name": "Mid-Circuit Measurement and Conditional Logic",
+    "tags": [
+      "mid-circuit-measurement",
+      "conditional",
+      "qiskit"
+    ],
+    "mutant_count": 16,
+    "site_count": 2
+  }
+]
