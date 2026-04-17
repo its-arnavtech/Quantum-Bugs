@@ -1485,41 +1485,62 @@ def build_dataset(output_root: Path, higher_order_per_seed: int = 2) -> dict:
 
     records: list[MutationRecord] = []
     seed_summary: list[dict] = []
+    seed_payloads: list[dict] = []
+    mutant_payloads: list[dict] = []
     seeds = seed_programs()
 
     for seed in seeds:
         family_dir = mutants_dir / seed.family
         family_dir.mkdir(parents=True, exist_ok=True)
         seed_path = seeds_dir / f"{seed.seed_id}.py"
-        seed_path.write_text(render_seed(seed), encoding="utf-8")
+        seed_code = render_seed(seed)
+        seed_path.write_text(seed_code, encoding="utf-8")
+        seed_payloads.append(
+            {
+                "seed_id": seed.seed_id,
+                "family": seed.family,
+                "name": seed.name,
+                "description": seed.description,
+                "tags": seed.tags,
+                "path": str(seed_path.as_posix()),
+                "code": seed_code,
+            }
+        )
         seed_mutant_count = 0
 
         for index, site in enumerate(seed.sites, start=1):
             for variant_idx, variant in enumerate(site.variants, start=1):
                 mutation_id = f"{seed.seed_id.upper()}_M{seed_mutant_count + 1:03d}"
                 mutant_path = family_dir / f"{mutation_id.lower()}.py"
-                mutant_path.write_text(render_mutant(seed, {site.site_id: variant}), encoding="utf-8")
-                records.append(
-                    MutationRecord(
-                        mutation_id=mutation_id,
-                        seed_id=seed.seed_id,
-                        family=seed.family,
-                        order="first_order",
-                        source_seed_path=str(seed_path.as_posix()),
-                        mutant_path=str(mutant_path.as_posix()),
-                        mutation_category=variant.category,
-                        mutation_subtype=variant.subtype,
-                        operator_id=variant.operator_id,
-                        operator_origin=variant.origin,
-                        quantum_specific=variant.quantum_specific,
-                        equivalent_candidate=variant.equivalent_candidate,
-                        bug_description=variant.description,
-                        testing_relevance=variant.relevance,
-                        expected_effect=variant.expected_effect,
-                        difficulty=variant.difficulty,
-                        likely_killable_by=variant.killable_by,
-                        primary_site=site.site_id,
-                    )
+                mutant_code = render_mutant(seed, {site.site_id: variant})
+                mutant_path.write_text(mutant_code, encoding="utf-8")
+                record = MutationRecord(
+                    mutation_id=mutation_id,
+                    seed_id=seed.seed_id,
+                    family=seed.family,
+                    order="first_order",
+                    source_seed_path=str(seed_path.as_posix()),
+                    mutant_path=str(mutant_path.as_posix()),
+                    mutation_category=variant.category,
+                    mutation_subtype=variant.subtype,
+                    operator_id=variant.operator_id,
+                    operator_origin=variant.origin,
+                    quantum_specific=variant.quantum_specific,
+                    equivalent_candidate=variant.equivalent_candidate,
+                    bug_description=variant.description,
+                    testing_relevance=variant.relevance,
+                    expected_effect=variant.expected_effect,
+                    difficulty=variant.difficulty,
+                    likely_killable_by=variant.killable_by,
+                    primary_site=site.site_id,
+                )
+                records.append(record)
+                mutant_payloads.append(
+                    {
+                        **asdict(record),
+                        "mutant_code": mutant_code,
+                        "source_seed_code": seed_code,
+                    }
                 )
                 seed_mutant_count += 1
 
@@ -1532,32 +1553,36 @@ def build_dataset(output_root: Path, higher_order_per_seed: int = 2) -> dict:
             second_variant = second.variants[0]
             mutation_id = f"{seed.seed_id.upper()}_HO{ho_count + 1:03d}"
             mutant_path = family_dir / f"{mutation_id.lower()}.py"
-            mutant_path.write_text(
-                render_mutant(seed, {first.site_id: first_variant, second.site_id: second_variant}),
-                encoding="utf-8",
+            mutant_code = render_mutant(seed, {first.site_id: first_variant, second.site_id: second_variant})
+            mutant_path.write_text(mutant_code, encoding="utf-8")
+            record = MutationRecord(
+                mutation_id=mutation_id,
+                seed_id=seed.seed_id,
+                family=seed.family,
+                order="higher_order",
+                source_seed_path=str(seed_path.as_posix()),
+                mutant_path=str(mutant_path.as_posix()),
+                mutation_category=f"{first_variant.category}+{second_variant.category}",
+                mutation_subtype=f"{first_variant.subtype}+{second_variant.subtype}",
+                operator_id=f"{first_variant.operator_id}+{second_variant.operator_id}",
+                operator_origin=f"{first_variant.origin}+{second_variant.origin}",
+                quantum_specific=first_variant.quantum_specific or second_variant.quantum_specific,
+                equivalent_candidate=first_variant.equivalent_candidate or second_variant.equivalent_candidate,
+                bug_description=f"Higher-order mutant combining: {first_variant.description} AND {second_variant.description}",
+                testing_relevance="Higher-order mutants stress fault interactions and help evaluate robustness beyond one-bug-per-mutant cases.",
+                expected_effect="silent semantic failure",
+                difficulty="hard",
+                likely_killable_by=[KILLABILITY["statistical"], KILLABILITY["equivalence"]],
+                primary_site=first.site_id,
+                secondary_sites=[second.site_id],
             )
-            records.append(
-                MutationRecord(
-                    mutation_id=mutation_id,
-                    seed_id=seed.seed_id,
-                    family=seed.family,
-                    order="higher_order",
-                    source_seed_path=str(seed_path.as_posix()),
-                    mutant_path=str(mutant_path.as_posix()),
-                    mutation_category=f"{first_variant.category}+{second_variant.category}",
-                    mutation_subtype=f"{first_variant.subtype}+{second_variant.subtype}",
-                    operator_id=f"{first_variant.operator_id}+{second_variant.operator_id}",
-                    operator_origin=f"{first_variant.origin}+{second_variant.origin}",
-                    quantum_specific=first_variant.quantum_specific or second_variant.quantum_specific,
-                    equivalent_candidate=first_variant.equivalent_candidate or second_variant.equivalent_candidate,
-                    bug_description=f"Higher-order mutant combining: {first_variant.description} AND {second_variant.description}",
-                    testing_relevance="Higher-order mutants stress fault interactions and help evaluate robustness beyond one-bug-per-mutant cases.",
-                    expected_effect="silent semantic failure",
-                    difficulty="hard",
-                    likely_killable_by=[KILLABILITY["statistical"], KILLABILITY["equivalence"]],
-                    primary_site=first.site_id,
-                    secondary_sites=[second.site_id],
-                )
+            records.append(record)
+            mutant_payloads.append(
+                {
+                    **asdict(record),
+                    "mutant_code": mutant_code,
+                    "source_seed_code": seed_code,
+                }
             )
             ho_count += 1
             seed_mutant_count += 1
@@ -1578,6 +1603,7 @@ def build_dataset(output_root: Path, higher_order_per_seed: int = 2) -> dict:
     catalog_json = metadata_dir / "mutation_catalog.json"
     schema_json = metadata_dir / "metadata_schema.json"
     summary_json = metadata_dir / "seed_summary.json"
+    bundle_json = metadata_dir / "dataset_bundle.json"
 
     metadata_json.write_text(json.dumps([asdict(record) for record in records], indent=2), encoding="utf-8")
     with metadata_csv.open("w", newline="", encoding="utf-8") as handle:
@@ -1601,6 +1627,21 @@ def build_dataset(output_root: Path, higher_order_per_seed: int = 2) -> dict:
     )
     schema_json.write_text(json.dumps(generate_metadata_schema(), indent=2), encoding="utf-8")
     summary_json.write_text(json.dumps(seed_summary, indent=2), encoding="utf-8")
+    bundle_json.write_text(
+        json.dumps(
+            {
+                "dataset_name": "quantum_mutation_dataset",
+                "target_stack": ["python", "qiskit"],
+                "taxonomy": taxonomy(),
+                "metadata_schema": generate_metadata_schema(),
+                "seed_summary": seed_summary,
+                "seeds": seed_payloads,
+                "mutants": mutant_payloads,
+            },
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
 
     return {
         "seed_count": len(seeds),
@@ -1608,6 +1649,7 @@ def build_dataset(output_root: Path, higher_order_per_seed: int = 2) -> dict:
         "metadata_json": str(metadata_json),
         "metadata_csv": str(metadata_csv),
         "catalog_json": str(catalog_json),
+        "bundle_json": str(bundle_json),
     }
 
 
