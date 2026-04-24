@@ -1,0 +1,26 @@
+bug_class_id,bug_class_name,real_bug_sources,mutation_tools,support_level
+QB-001,Missing gate,Bugs4Q; Empirical Quantum Platform Bug Study,Muskit; QMutPy; QCRMut; QuanForge,Direct
+QB-002,Extra gate,Bugs4Q; Empirical Quantum Platform Bug Study,Muskit; QMutPy; QCRMut; QuanForge,Direct
+QB-003,Wrong gate,Bugs4Q; Qiskit Bug Pattern Research; Empirical Quantum Platform Bug Study,Muskit; QMutPy; QCRMut; QuanForge,Direct
+QB-004,Wrong target qubit,Empirical Quantum Platform Bug Study,QCRMut; QuanForge,Direct
+QB-005,Wrong qubit order,Empirical Quantum Platform Bug Study,QCRMut; QuanForge,Partial
+QB-006,Wrong qubit count,Qiskit Bug Pattern Research; Empirical Quantum Platform Bug Study,QCRMut; QuanForge,Partial
+QB-007,Missing measurement,Bugs4Q; Qiskit Bug Pattern Research,QMutPy,Direct
+QB-008,Premature or extra measurement,Qiskit Bug Pattern Research,QMutPy,Direct
+QB-009,Repeated measurement,Qiskit Bug Pattern Research,None,Unsupported
+QB-010,Operation after measurement,Qiskit Bug Pattern Research,QMutPy,Partial
+QB-011,Unsafe uncomputation,Qiskit Bug Pattern Research,None,Unsupported
+QB-012,Wrong parameter value,Bugs4Q; QuanForge,QCRMut; QuanForge,Direct
+QB-013,Parameter sign flip,QuanForge,QuanForge,Direct
+QB-014,Parameter misbinding,QuanForge,QuanForge,Direct
+QB-015,Wrong gate order,Empirical Quantum Platform Bug Study,QuanForge; QCRMut,Direct
+QB-016,Wrong control relation,Empirical Quantum Platform Bug Study,QuanForge,Direct
+QB-017,Custom gate recognition error,Qiskit Bug Pattern Research,None,Unsupported
+QB-018,Classical quantum register mismatch,Qiskit Bug Pattern Research,None,Unsupported
+QB-019,Incorrect intermediate representation,Empirical Quantum Platform Bug Study,None,Unsupported
+QB-020,MSB LSB convention mismatch,Empirical Quantum Platform Bug Study,None,Unsupported
+QB-021,Incorrect scheduling,Empirical Quantum Platform Bug Study,None,Unsupported
+QB-022,Incorrect numerical computation,Empirical Quantum Platform Bug Study,Classical mutation tools,Partial
+QB-023,Incorrect randomness handling,Empirical Quantum Platform Bug Study,Classical mutation tools,Partial
+QB-024,API misuse,Empirical Quantum Platform Bug Study,Classical mutation tools,Partial
+QB-025,Backend or simulator compatibility issue,Bugs4Q; Empirical Quantum Platform Bug Study,None,Unsupported

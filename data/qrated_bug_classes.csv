@@ -1,0 +1,26 @@
+bug_class_id,bug_class_name,qrate,reason
+QB-001,Missing gate,5,Strongly quantum-specific and directly supported by multiple mutation tools
+QB-002,Extra gate,5,Strongly quantum-specific and directly supported by multiple mutation tools
+QB-003,Wrong gate,5,Core quantum logic fault directly supported by major mutation tools
+QB-004,Wrong target qubit,5,Highly quantum-specific and supported by circuit attribute or retargeting mutations
+QB-005,Wrong qubit order,5,Very important quantum-specific representation bug with partial mutation support
+QB-006,Wrong qubit count,4,Common real quantum bug but only partially represented by existing mutation tools
+QB-007,Missing measurement,5,Strongly quantum-specific and directly supported by QMutPy
+QB-008,Premature or extra measurement,5,Quantum-specific state collapse bug directly supported by QMutPy
+QB-009,Repeated measurement,4,Real quantum bug pattern but not directly supported by common tools
+QB-010,Operation after measurement,4,Quantum-specific bug involving collapse semantics with partial mutation support
+QB-011,Unsafe uncomputation,4,Important quantum algorithm bug but not directly supported by mutation tools
+QB-012,Wrong parameter value,5,Important for parameterized circuits and QNNs with direct support
+QB-013,Parameter sign flip,5,Important QNN and rotation bug directly supported by QuanForge
+QB-014,Parameter misbinding,5,Important QNN bug directly supported by QuanForge
+QB-015,Wrong gate order,5,Core quantum circuit bug with direct mutation support
+QB-016,Wrong control relation,5,Important entanglement/control-flow bug directly supported by QuanForge
+QB-017,Custom gate recognition error,3,Real Qiskit bug pattern but more API-specific than circuit-semantic
+QB-018,Classical quantum register mismatch,4,Important static quantum bug with weak mutation support
+QB-019,Incorrect intermediate representation,4,Important real platform bug but not well represented by circuit-level mutation
+QB-020,MSB LSB convention mismatch,5,Highly quantum-relevant representation bug currently under-supported
+QB-021,Incorrect scheduling,4,Important backend/compiler-level quantum bug but unsupported by current circuit mutation tools
+QB-022,Incorrect numerical computation,4,Relevant to quantum simulation and algorithms but overlaps with classical math bugs
+QB-023,Incorrect randomness handling,3,Relevant to quantum sampling but partly classical
+QB-024,API misuse,3,Common in quantum software but partly general software engineering
+QB-025,Backend or simulator compatibility issue,4,Important real-world quantum bug but difficult to model through simple mutation

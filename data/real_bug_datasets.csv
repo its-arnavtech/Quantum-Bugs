@@ -1,0 +1,5 @@
+dataset_name,source_type,target_scope,bug_count_or_scope,main_bug_classes,notes
+Bugs4Q,Real bug benchmark,Qiskit quantum programs,42 real Qiskit bugs,Initialization errors measurement errors incorrect quantum gate usage parameter bugs register mismatch backend compatibility circuit construction bugs,Contains buggy and fixed versions with tests
+Qiskit Bug Pattern Research,Static bug pattern research,Qiskit programs,Pattern-based study,Unequal classical bits and qubits custom gates not recognized insufficient initial qubits repeated measurement operations after measurement unsafe uncomputation,Useful for static-analysis-oriented bug classes
+Empirical Quantum Platform Bug Study,Real-world bug study,18 quantum computing platforms,223 real bugs,API misuse incorrect IR wrong quantum concept qubit order qubit count scheduling numerical computation randomness handling misconfiguration type problems,Useful for broader quantum software bug taxonomy
+QMutBench,Mutation benchmark,Quantum circuits,Over 700000 mutants,Add gate remove gate replace gate faulty gate survival-rate-based difficulty,Static mutant dataset built from Muskit-generated mutants

@@ -1,0 +1,6 @@
+tool_name,target_framework,main_purpose,mutation_scope,notes
+Muskit,Qiskit,Mutation analysis for Qiskit quantum programs,Gate-level mutations,Supports add remove and replace gate operators
+QMutPy,Qiskit and Qiskit Aqua,Mutation testing for quantum algorithms and applications,Gate and measurement mutations,Extends MutPy with quantum-specific operators
+QCRMut,Qiskit QuantumCircuit,Random quantum circuit mutant generation,Gate insertion deletion name modification and attribute modification,Useful for static circuit-level mutant datasets
+QuanForge,PennyLane and PyTorch QNNs,Mutation testing for quantum neural networks,Gate-level and parameter-level mutations,Designed for post-training QNN robustness testing
+QMutBench,Quantum circuits,Static benchmark of quantum circuit mutants,Dataset of generated mutants,Built using Muskit-generated mutants

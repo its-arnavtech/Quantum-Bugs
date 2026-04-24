@@ -1,0 +1,26 @@
+bug_class_id,bug_class_name,category,description
+QB-001,Missing gate,Gate-level,A required quantum gate is absent from the circuit
+QB-002,Extra gate,Gate-level,An unintended quantum gate is added to the circuit
+QB-003,Wrong gate,Gate-level,A gate is replaced with an incorrect gate
+QB-004,Wrong target qubit,Gate-level,A gate is applied to the wrong qubit or qubits
+QB-005,Wrong qubit order,Qubit/register-level,Qubits are ordered or mapped incorrectly
+QB-006,Wrong qubit count,Qubit/register-level,The circuit assumes or initializes the wrong number of qubits
+QB-007,Missing measurement,Measurement-level,A required measurement operation is missing
+QB-008,Premature or extra measurement,Measurement-level,A measurement is inserted too early or unnecessarily
+QB-009,Repeated measurement,Measurement-level,A qubit is measured repeatedly or too many measurements are performed
+QB-010,Operation after measurement,Measurement-level,A quantum operation is incorrectly applied after measurement
+QB-011,Unsafe uncomputation,Algorithm-level,An inverse or cleanup operation is applied incorrectly and leaves invalid state
+QB-012,Wrong parameter value,Parameter-level,A rotation angle or parameter value is incorrect
+QB-013,Parameter sign flip,Parameter-level,A gate parameter has the wrong sign
+QB-014,Parameter misbinding,Parameter-level,A parameter is assigned to the wrong gate or position
+QB-015,Wrong gate order,Gate-level,A correct gate is placed in the wrong position
+QB-016,Wrong control relation,Gate-level,A control qubit is added removed or assigned incorrectly
+QB-017,Custom gate recognition error,API/circuit-level,A custom gate is invalid or not recognized by the framework
+QB-018,Classical quantum register mismatch,Qubit/register-level,The number of classical bits does not match the number of measured qubits
+QB-019,Incorrect intermediate representation,Compiler/platform-level,A circuit or internal representation drops or stores incorrect information
+QB-020,MSB LSB convention mismatch,Representation-level,The program uses the wrong bit ordering or endian convention
+QB-021,Incorrect scheduling,Compiler/platform-level,Quantum operations are scheduled at incorrect times
+QB-022,Incorrect numerical computation,Math-level,A formula probability amplitude or matrix computation is incorrect
+QB-023,Incorrect randomness handling,Math-level,Random seed sampling or probability behavior is handled incorrectly
+QB-024,API misuse,API-level,The program uses the quantum framework API incorrectly
+QB-025,Backend or simulator compatibility issue,Backend-level,A program works on one backend or simulator but fails on another

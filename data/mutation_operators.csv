@@ -1,0 +1,22 @@
+tool_name,operator_id,operator_name,operator_type,description,bug_class
+Muskit,AG,Add Gate,Gate-level,Adds a quantum gate to a circuit,Extra gate
+Muskit,RemG,Remove Gate,Gate-level,Removes a quantum gate from a circuit,Missing gate
+Muskit,RepG,Replace Gate,Gate-level,Replaces a quantum gate with another compatible gate,Wrong gate
+QMutPy,QGD,Quantum Gate Deletion,Gate-level,Deletes a quantum gate,Missing gate
+QMutPy,QGI,Quantum Gate Insertion,Gate-level,Inserts a quantum gate,Extra gate
+QMutPy,QGR,Quantum Gate Replacement,Gate-level,Replaces a quantum gate with another gate,Wrong gate
+QMutPy,QMD,Quantum Measurement Deletion,Measurement-level,Deletes a measurement operation,Missing measurement
+QMutPy,QMI,Quantum Measurement Insertion,Measurement-level,Inserts a measurement operation,Premature or extra measurement
+QCRMut,INSERT,Gate Insertion,Gate-level,Inserts a gate into a quantum circuit,Extra gate
+QCRMut,DELETE,Gate Deletion,Gate-level,Deletes a gate from a quantum circuit,Missing gate
+QCRMut,GATE_NAME_MOD,Gate Name Modification,Gate-level,Changes the gate name while preserving compatible structure,Wrong gate
+QCRMut,GATE_ATTR_MOD,Gate Attribute Modification,Gate-level,Changes gate parameters or qubit application,Wrong target qubit or wrong parameter
+QuanForge,RGA,Random Gate Addition,Gate-level,Adds random quantum gates,Extra gate
+QuanForge,RGD,Random Gate Deletion,Gate-level,Deletes random quantum gates,Missing gate
+QuanForge,GR,Gate Replacement,Gate-level,Replaces gates with compatible alternatives,Wrong gate
+QuanForge,GPM,Gate Position Modification,Gate-level,Moves gates to different positions,Wrong gate order
+QuanForge,GSM,Gate Size Modification,Gate-level,Adds or removes control relations,Wrong control relation
+QuanForge,GRT,Gate Re-targeting,Gate-level,Changes target qubits,Wrong target qubit
+QuanForge,PF,Parameter Fuzzing,Parameter-level,Adds random noise to gate parameters,Wrong parameter value
+QuanForge,PSF,Parameter Sign Flip,Parameter-level,Flips the sign of a gate parameter,Wrong parameter direction
+QuanForge,PS,Parameter Switch,Parameter-level,Switches parameters between gates,Parameter misbinding
