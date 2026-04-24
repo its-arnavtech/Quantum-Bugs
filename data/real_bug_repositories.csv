@@ -1,0 +1,24 @@
+repo_id,repo_name,repo_url,source_dataset,contains_real_bugs,notes
+RBR-001,Bugs4Q,https://github.com/Z-928/Bugs4Q,Bugs4Q,Yes,Curated benchmark of real-world Qiskit bugs with buggy and fixed versions
+RBR-002,Bugs4Q-Framework,https://github.com/Z-928/Bugs4Q-Framework,Bugs4Q,Yes,Framework for checking out and running Bugs4Q buggy and fixed versions
+RBR-003,Bugs4Q-NA,https://github.com/Z-928/Bugs4Q-NA,Bugs4Q New Additions,Yes,New additions covering Qiskit Terra Aer Cirq Q# StackOverflow and StackExchange cases
+RBR-004,Bug-Pattern,https://github.com/Z-928/Bug-Pattern,Qiskit Bug Pattern Research,Yes,Pattern-level examples of Qiskit bug classes
+RBR-005,Bugs-Quantum-Computing-Platforms,https://github.com/MattePalte/Bugs-Quantum-Computing-Platforms,Empirical Quantum Platform Bug Study,Yes,Companion repo for 223 real-world bugs across 18 quantum computing platforms
+RBR-006,Cirq,https://github.com/quantumlib/Cirq,Empirical Quantum Platform Bug Study,Yes,Original quantum platform repo included in minimized bug-fix dataset
+RBR-007,OpenQL,https://github.com/QuTech-Delft/OpenQL,Empirical Quantum Platform Bug Study,Yes,Original quantum platform repo included in minimized bug-fix dataset
+RBR-008,ProjectQ,https://github.com/ProjectQ-Framework/ProjectQ,Empirical Quantum Platform Bug Study,Yes,Original quantum platform repo included in minimized bug-fix dataset
+RBR-009,QuantumLibraries,https://github.com/microsoft/QuantumLibraries,Empirical Quantum Platform Bug Study,Yes,Original Q# libraries repo included in minimized bug-fix dataset
+RBR-010,amazon-braket-sdk-python,https://github.com/aws/amazon-braket-sdk-python,Empirical Quantum Platform Bug Study,Yes,Original quantum SDK repo included in minimized bug-fix dataset
+RBR-011,dwave-system,https://github.com/dwavesystems/dwave-system,Empirical Quantum Platform Bug Study,Yes,Original D-Wave system repo included in minimized bug-fix dataset
+RBR-012,mitiq,https://github.com/unitaryfund/mitiq,Empirical Quantum Platform Bug Study,Yes,Original quantum error mitigation repo included in minimized bug-fix dataset
+RBR-013,pennylane,https://github.com/PennyLaneAI/pennylane,Empirical Quantum Platform Bug Study,Yes,Original quantum machine learning framework repo included in minimized bug-fix dataset
+RBR-014,pyquil,https://github.com/rigetti/pyquil,Empirical Quantum Platform Bug Study,Yes,Original Rigetti quantum programming repo included in minimized bug-fix dataset
+RBR-015,qiskit-aer,https://github.com/Qiskit/qiskit-aer,Empirical Quantum Platform Bug Study,Yes,Original Qiskit simulator repo included in minimized bug-fix dataset
+RBR-016,qiskit-ignis,https://github.com/Qiskit/qiskit-ignis,Empirical Quantum Platform Bug Study,Yes,Original Qiskit Ignis repo included in minimized bug-fix dataset
+RBR-017,qiskit-terra,https://github.com/Qiskit/qiskit-terra,Empirical Quantum Platform Bug Study and Bugs4Q,Yes,Original Qiskit Terra repo included in multiple real-bug datasets
+RBR-018,qsharp-compiler,https://github.com/microsoft/qsharp-compiler,Empirical Quantum Platform Bug Study,Yes,Original Q# compiler repo included in minimized bug-fix dataset
+RBR-019,qsharp-runtime,https://github.com/microsoft/qsharp-runtime,Empirical Quantum Platform Bug Study,Yes,Original Q# runtime repo included in minimized bug-fix dataset
+RBR-020,qulacs,https://github.com/qulacs/qulacs,Empirical Quantum Platform Bug Study,Yes,Original quantum simulator repo included in minimized bug-fix dataset
+RBR-021,strawberryfields,https://github.com/XanaduAI/strawberryfields,Empirical Quantum Platform Bug Study,Yes,Original photonic quantum computing repo included in minimized bug-fix dataset
+RBR-022,tequila,https://github.com/tequilahub/tequila,Empirical Quantum Platform Bug Study,Yes,Original variational quantum algorithm repo included in minimized bug-fix dataset
+RBR-023,xacc,https://github.com/eclipse-xacc/xacc,Empirical Quantum Platform Bug Study,Yes,Original hybrid quantum-classical framework repo included in minimized bug-fix dataset

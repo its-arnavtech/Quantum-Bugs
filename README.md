@@ -21,6 +21,7 @@ The repository includes:
 - Quantum mutation testing tools
 - Mutation operators supported by each tool
 - Real quantum bug datasets and repositories
+- Real bug source repositories
 - Quantum bug classes
 - A crosswalk between artificial mutations and real bugs
 - QRated bug classes ranked by quantum-specific usefulness
@@ -56,6 +57,7 @@ data/
   mutation_tools.csv
   mutation_operators.csv
   real_bug_datasets.csv
+  real_bug_repositories.csv
   bug_classes.csv
   mutation_real_bug_crosswalk.csv
   qrated_bug_classes.csv
