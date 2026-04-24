@@ -1,0 +1,30 @@
+mutation_dataset_id,static_bug_id,bug_class_id,bug_class_name,mutation_tool,operator_id,operator_name,mutation_type,mutation_description,qrate,support_level,example_mutation_effect
+QMD-001,QSB-001,QB-001,Missing gate,Muskit,RemG,Remove Gate,Gate-level,Removes a quantum gate from a circuit,5,Direct,A required quantum operation is skipped
+QMD-002,QSB-001,QB-001,Missing gate,QMutPy,QGD,Quantum Gate Deletion,Gate-level,Deletes a quantum gate from the circuit,5,Direct,A required quantum operation is skipped
+QMD-003,QSB-001,QB-001,Missing gate,QCRMut,DELETE,Gate Deletion,Gate-level,Deletes a gate from a quantum circuit,5,Direct,A required quantum operation is skipped
+QMD-004,QSB-001,QB-001,Missing gate,QuanForge,RGD,Random Gate Deletion,Gate-level,Deletes random quantum gates,5,Direct,A required quantum operation is skipped
+QMD-005,QSB-002,QB-002,Extra gate,Muskit,AG,Add Gate,Gate-level,Adds a quantum gate to the circuit,5,Direct,An unintended transformation is added
+QMD-006,QSB-002,QB-002,Extra gate,QMutPy,QGI,Quantum Gate Insertion,Gate-level,Inserts a quantum gate into the circuit,5,Direct,An unintended transformation is added
+QMD-007,QSB-002,QB-002,Extra gate,QCRMut,INSERT,Gate Insertion,Gate-level,Inserts a gate into a quantum circuit,5,Direct,An unintended transformation is added
+QMD-008,QSB-002,QB-002,Extra gate,QuanForge,RGA,Random Gate Addition,Gate-level,Adds random quantum gates,5,Direct,An unintended transformation is added
+QMD-009,QSB-003,QB-003,Wrong gate,Muskit,RepG,Replace Gate,Gate-level,Replaces a quantum gate with another compatible gate,5,Direct,The circuit applies the wrong quantum transformation
+QMD-010,QSB-003,QB-003,Wrong gate,QMutPy,QGR,Quantum Gate Replacement,Gate-level,Replaces a quantum gate with another gate,5,Direct,The circuit applies the wrong quantum transformation
+QMD-011,QSB-003,QB-003,Wrong gate,QCRMut,GATE_NAME_MOD,Gate Name Modification,Gate-level,Changes the gate name while keeping compatible structure,5,Direct,The circuit applies the wrong quantum transformation
+QMD-012,QSB-003,QB-003,Wrong gate,QuanForge,GR,Gate Replacement,Gate-level,Replaces gates with compatible alternatives,5,Direct,The circuit applies the wrong quantum transformation
+QMD-013,QSB-004,QB-004,Wrong target qubit,QCRMut,GATE_ATTR_MOD,Gate Attribute Modification,Gate-level,Changes gate parameters or qubit application,5,Direct,A gate acts on the wrong qubit
+QMD-014,QSB-004,QB-004,Wrong target qubit,QuanForge,GRT,Gate Re-targeting,Gate-level,Changes target qubits,5,Direct,A gate acts on the wrong qubit
+QMD-015,QSB-005,QB-005,Wrong qubit order,QCRMut,GATE_ATTR_MOD,Gate Attribute Modification,Gate-level,Changes qubit application attributes,5,Partial,Qubit mapping or ordering may be altered indirectly
+QMD-016,QSB-005,QB-005,Wrong qubit order,QuanForge,GRT,Gate Re-targeting,Gate-level,Changes target qubits,5,Partial,Qubit mapping or ordering may be altered indirectly
+QMD-017,QSB-006,QB-006,Wrong qubit count,QuanForge,GSM,Gate Size Modification,Gate-level,Adds or removes control relations,4,Partial,Circuit arity or control structure may be altered
+QMD-018,QSB-007,QB-007,Missing measurement,QMutPy,QMD,Quantum Measurement Deletion,Measurement-level,Deletes a measurement operation,5,Direct,Required classical output is missing
+QMD-019,QSB-008,QB-008,Premature or extra measurement,QMutPy,QMI,Quantum Measurement Insertion,Measurement-level,Inserts a measurement operation,5,Direct,Quantum state collapses too early or unnecessarily
+QMD-020,QSB-010,QB-010,Operation after measurement,QMutPy,QMI,Quantum Measurement Insertion,Measurement-level,Inserts measurement before later operations,4,Partial,Later quantum operations occur after state collapse
+QMD-021,QSB-012,QB-012,Wrong parameter value,QCRMut,GATE_ATTR_MOD,Gate Attribute Modification,Gate-level,Changes gate parameters or qubit application,5,Direct,Gate angle or parameter value changes
+QMD-022,QSB-012,QB-012,Wrong parameter value,QuanForge,PF,Parameter Fuzzing,Parameter-level,Adds random noise to gate parameters,5,Direct,Gate angle or parameter value changes
+QMD-023,QSB-013,QB-013,Parameter sign flip,QuanForge,PSF,Parameter Sign Flip,Parameter-level,Flips the sign of a gate parameter,5,Direct,Rotation direction is reversed
+QMD-024,QSB-014,QB-014,Parameter misbinding,QuanForge,PS,Parameter Switch,Parameter-level,Switches parameters between gates,5,Direct,Parameter affects the wrong gate
+QMD-025,QSB-015,QB-015,Wrong gate order,QuanForge,GPM,Gate Position Modification,Gate-level,Moves gates to different positions,5,Direct,Non-commuting operations execute in the wrong order
+QMD-026,QSB-016,QB-016,Wrong control relation,QuanForge,GSM,Gate Size Modification,Gate-level,Adds or removes control relations,5,Direct,Control or entanglement structure changes
+QMD-027,QSB-022,QB-022,Incorrect numerical computation,Classical mutation tools,Arithmetic or Logical Mutation,Arithmetic or Logical Mutation,Classical-level,Mutates arithmetic logical or comparison expressions,4,Partial,Numerical calculation may produce incorrect simulation or algorithm result
+QMD-028,QSB-023,QB-023,Incorrect randomness handling,Classical mutation tools,Randomness or Constant Mutation,Randomness or Constant Mutation,Classical-level,Mutates constants seeds or random handling logic,3,Partial,Sampling or random behavior may become incorrect
+QMD-029,QSB-024,QB-024,API misuse,Classical mutation tools,Call or Argument Mutation,Call or Argument Mutation,Classical-level,Mutates function calls arguments or API usage,3,Partial,Framework API may be called incorrectly

@@ -26,6 +26,10 @@ The repository includes:
 - A crosswalk between artificial mutations and real bugs
 - QRated bug classes ranked by quantum-specific usefulness
 
+## Static QRated Datasets
+
+The `static_datasets/` folder provides the main research dataset connecting real quantum bug classes to mutation operators. It also identifies unsupported real bug classes and mutation gaps that can guide future quantum mutation testing research.
+
 ## Main Tools Studied
 
 - Muskit
@@ -61,6 +65,12 @@ data/
   bug_classes.csv
   mutation_real_bug_crosswalk.csv
   qrated_bug_classes.csv
+
+static_datasets/
+  qrated_static_bug_dataset.csv
+  qrated_mutation_dataset.csv
+  unsupported_real_bug_classes.csv
+  dataset_schema.md
 
 docs/
   methodology.md
